@@ -158,6 +158,8 @@ JOIN University ON idPrice = idUniversity
 JOIN Salary ON idRector AND idTeacher = idSalary
 JOIN Students on idGender = idStudents;
 
+-- 10 Delete Statment
+
 DELETE FROM Students WHERE fname = 'Giorgi';
 DELETE FROM Lecturers WHERE idTeacher = (1, 2);
 DELETE FROM Course WHERE idCourse = 2;
